@@ -1,0 +1,277 @@
+{
+  "name": "Circuit",
+  "tiles": [
+    "WIRE_H",
+    "WIRE_V",
+    "WIRE_CROSS",
+    "WIRE_TURN",
+    "EMPTY",
+    "NODE"
+  ],
+  "colors": {
+    "WIRE_H": "#000000",
+    "WIRE_V": "#000000",
+    "WIRE_CROSS": "#000000",
+    "WIRE_TURN": "#000000",
+    "EMPTY": "#000000",
+    "NODE": "#000000"
+  },
+  "rules": [
+    [
+      "WIRE_H",
+      "LEFT",
+      "WIRE_H"
+    ],
+    [
+      "WIRE_H",
+      "RIGHT",
+      "WIRE_H"
+    ],
+    [
+      "WIRE_H",
+      "LEFT",
+      "WIRE_TURN"
+    ],
+    [
+      "WIRE_H",
+      "RIGHT",
+      "WIRE_TURN"
+    ],
+    [
+      "WIRE_H",
+      "LEFT",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_H",
+      "RIGHT",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_H",
+      "LEFT",
+      "NODE"
+    ],
+    [
+      "WIRE_H",
+      "RIGHT",
+      "NODE"
+    ],
+    [
+      "WIRE_V",
+      "UP",
+      "WIRE_V"
+    ],
+    [
+      "WIRE_V",
+      "DOWN",
+      "WIRE_V"
+    ],
+    [
+      "WIRE_V",
+      "UP",
+      "WIRE_TURN"
+    ],
+    [
+      "WIRE_V",
+      "DOWN",
+      "WIRE_TURN"
+    ],
+    [
+      "WIRE_V",
+      "UP",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_V",
+      "DOWN",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_V",
+      "UP",
+      "NODE"
+    ],
+    [
+      "WIRE_V",
+      "DOWN",
+      "NODE"
+    ],
+    [
+      "WIRE_CROSS",
+      "UP",
+      "WIRE_V"
+    ],
+    [
+      "WIRE_CROSS",
+      "DOWN",
+      "WIRE_V"
+    ],
+    [
+      "WIRE_CROSS",
+      "LEFT",
+      "WIRE_H"
+    ],
+    [
+      "WIRE_CROSS",
+      "RIGHT",
+      "WIRE_H"
+    ],
+    [
+      "WIRE_CROSS",
+      "UP",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_CROSS",
+      "DOWN",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_CROSS",
+      "LEFT",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_CROSS",
+      "RIGHT",
+      "WIRE_CROSS"
+    ],
+    [
+      "WIRE_TURN",
+      "UP",
+      "WIRE_V"
+    ],
+    [
+      "WIRE_TURN",
+      "DOWN",
+      "WIRE_V"
+    ],
+    [
+      "WIRE_TURN",
+      "LEFT",
+      "WIRE_H"
+    ],
+    [
+      "WIRE_TURN",
+      "RIGHT",
+      "WIRE_H"
+    ],
+    [
+      "WIRE_TURN",
+      "UP",
+      "WIRE_TURN"
+    ],
+    [
+      "WIRE_TURN",
+      "RIGHT",
+      "WIRE_TURN"
+    ],
+    [
+      "WIRE_TURN",
+      "DOWN",
+      "WIRE_TURN"
+    ],
+    [
+      "WIRE_TURN",
+      "LEFT",
+      "WIRE_TURN"
+    ],
+    [
+      "NODE",
+      "UP",
+      "WIRE_V"
+    ],
+    [
+      "NODE",
+      "DOWN",
+      "WIRE_V"
+    ],
+    [
+      "NODE",
+      "LEFT",
+      "WIRE_H"
+    ],
+    [
+      "NODE",
+      "RIGHT",
+      "WIRE_H"
+    ],
+    [
+      "NODE",
+      "UP",
+      "WIRE_CROSS"
+    ],
+    [
+      "NODE",
+      "DOWN",
+      "WIRE_CROSS"
+    ],
+    [
+      "NODE",
+      "LEFT",
+      "WIRE_CROSS"
+    ],
+    [
+      "NODE",
+      "RIGHT",
+      "WIRE_CROSS"
+    ],
+    [
+      "NODE",
+      "UP",
+      "NODE"
+    ],
+    [
+      "NODE",
+      "DOWN",
+      "NODE"
+    ],
+    [
+      "NODE",
+      "LEFT",
+      "NODE"
+    ],
+    [
+      "NODE",
+      "RIGHT",
+      "NODE"
+    ],
+    [
+      "EMPTY",
+      "UP",
+      "EMPTY"
+    ],
+    [
+      "EMPTY",
+      "DOWN",
+      "EMPTY"
+    ],
+    [
+      "EMPTY",
+      "LEFT",
+      "EMPTY"
+    ],
+    [
+      "EMPTY",
+      "RIGHT",
+      "EMPTY"
+    ]
+  ],
+  "weights": {
+    "WIRE_H": 1.5,
+    "WIRE_V": 1.5,
+    "WIRE_CROSS": 0.8,
+    "WIRE_TURN": 1.2,
+    "EMPTY": 2.0,
+    "NODE": 0.5
+  },
+  "images": {
+    "WIRE_H": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaklEQVR4nGOUktL7zzCAgGkgLR91wGgIjIbAaAiMhsCgCAEWGEOqbi1c8FlTMM0sRLeHEVQbIgvS0hHY7GE0mXF7tDoeUMA40GmACZtltMoF2OxhHG0TMow6YIAB06gDGEYdMMCAacQ7AAA3RB3ex36QHQAAAABJRU5ErkJggg==",
+    "WIRE_V": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAd0lEQVR4nO2XsRHAIAwDHS1AzxAZKxswRTbIlkyQdKmg0Sn4cqevoED6whTeat3vICnH+Z771agMKMpH908FyqSMkUAkg18K9MnAMYMIRmBUtvwXqIAsyQIkiGRggbBAMrBAWCAZWCAskAzYh96MVECWtFJAuRk9It4YoSYGAzIAAAAASUVORK5CYII=",
+    "WIRE_CROSS": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkklEQVR4nO1X2w2AIAxsG6ZgCEdiBIZhhC6q8cP4AyrFWBp7X/QCzaVceWCMywqKIFBGGFrN+RynYrMC5ALAhAl53GzyCnCuxy2+E3h5EEmSdlaIQBk0t4BU3uHFAmpJj7jF2+0CliUYQiqzm/AD4O2LqLY1u+FavLUuCI9mvXwBTeUBcgHgApRBLgD+LgC1v+cbO04m5zPLeukAAAAASUVORK5CYII=",
+    "WIRE_TURN": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkklEQVR4nO2WwQ2AIAxFy0+nYAjXcRcHcBd3JNGTxhi4lNJG7TvJgf4XqNaU87STkLLO1zMvm6gGNMJr66ECpREmkQA5g1cKcKPhJI0IiUAtzPwt0AJqlUJACOjvAmwd+Bxg8Ao/1zyq+Gt6AD2bpZ/fO6nnj0jjmkCG1AZYsjyB7zWhBlCpEgIdgJxBCFAIkC8HSbYhPgx5IoMAAAAASUVORK5CYII=",
+    "EMPTY": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaklEQVR4nGPk51f+zzCAgGkgLR91wGgIDI0Q+PDhjigt5ZmI0YzLEErlCTpAQEDlNTJNbXkQYBwtCRlGHTDAgImQgtFygGG0HKAxYKK1BaMOIASYCCkYLQcYRssBGgMmWlsw6gBCYMAdAABiB2aWca5j7QAAAABJRU5ErkJggg==",
+    "NODE": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAxklEQVR4nGOUktL7zzCAgGkgLaeKA84a8YHxgDmAUsBEsQmjDqAQMFFqwKgDhrwDGMktipfJ/8UQi3rITLI5LORari4siCnO8J5kRzBRy3IQAIljCxmqRcEyNMu5PPzg7G87NsHZN98SHxJMDGQCZMux8UlOA2eJqNFAPiMWEGOe8blPQywbLqNBGmAktRzAlwtItRwESI4CkOG40gKploPAgJeEjJS2imGpHZSiyQFMDAMMmEYdwDDqgAEGTCPeAYwD3T0HAB1kR0G1YnOcAAAAAElFTkSuQmCC"
+  }
+}

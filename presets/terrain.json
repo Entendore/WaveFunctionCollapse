@@ -1,0 +1,213 @@
+{
+  "name": "Terrain",
+  "tiles": [
+    "WATER",
+    "SAND",
+    "GRASS",
+    "FOREST",
+    "MOUNTAIN"
+  ],
+  "colors": {
+    "WATER": "#000000",
+    "SAND": "#000000",
+    "GRASS": "#000000",
+    "FOREST": "#000000",
+    "MOUNTAIN": "#000000"
+  },
+  "rules": [
+    [
+      "WATER",
+      "UP",
+      "WATER"
+    ],
+    [
+      "WATER",
+      "DOWN",
+      "WATER"
+    ],
+    [
+      "WATER",
+      "LEFT",
+      "WATER"
+    ],
+    [
+      "WATER",
+      "RIGHT",
+      "WATER"
+    ],
+    [
+      "SAND",
+      "UP",
+      "SAND"
+    ],
+    [
+      "SAND",
+      "DOWN",
+      "SAND"
+    ],
+    [
+      "SAND",
+      "LEFT",
+      "SAND"
+    ],
+    [
+      "SAND",
+      "RIGHT",
+      "SAND"
+    ],
+    [
+      "GRASS",
+      "UP",
+      "GRASS"
+    ],
+    [
+      "GRASS",
+      "DOWN",
+      "GRASS"
+    ],
+    [
+      "GRASS",
+      "LEFT",
+      "GRASS"
+    ],
+    [
+      "GRASS",
+      "RIGHT",
+      "GRASS"
+    ],
+    [
+      "FOREST",
+      "UP",
+      "FOREST"
+    ],
+    [
+      "FOREST",
+      "DOWN",
+      "FOREST"
+    ],
+    [
+      "FOREST",
+      "LEFT",
+      "FOREST"
+    ],
+    [
+      "FOREST",
+      "RIGHT",
+      "FOREST"
+    ],
+    [
+      "MOUNTAIN",
+      "UP",
+      "MOUNTAIN"
+    ],
+    [
+      "MOUNTAIN",
+      "DOWN",
+      "MOUNTAIN"
+    ],
+    [
+      "MOUNTAIN",
+      "LEFT",
+      "MOUNTAIN"
+    ],
+    [
+      "MOUNTAIN",
+      "RIGHT",
+      "MOUNTAIN"
+    ],
+    [
+      "WATER",
+      "UP",
+      "SAND"
+    ],
+    [
+      "WATER",
+      "DOWN",
+      "SAND"
+    ],
+    [
+      "WATER",
+      "LEFT",
+      "SAND"
+    ],
+    [
+      "WATER",
+      "RIGHT",
+      "SAND"
+    ],
+    [
+      "SAND",
+      "UP",
+      "GRASS"
+    ],
+    [
+      "SAND",
+      "DOWN",
+      "GRASS"
+    ],
+    [
+      "SAND",
+      "LEFT",
+      "GRASS"
+    ],
+    [
+      "SAND",
+      "RIGHT",
+      "GRASS"
+    ],
+    [
+      "GRASS",
+      "UP",
+      "FOREST"
+    ],
+    [
+      "GRASS",
+      "DOWN",
+      "FOREST"
+    ],
+    [
+      "GRASS",
+      "LEFT",
+      "FOREST"
+    ],
+    [
+      "GRASS",
+      "RIGHT",
+      "FOREST"
+    ],
+    [
+      "FOREST",
+      "UP",
+      "MOUNTAIN"
+    ],
+    [
+      "FOREST",
+      "DOWN",
+      "MOUNTAIN"
+    ],
+    [
+      "FOREST",
+      "LEFT",
+      "MOUNTAIN"
+    ],
+    [
+      "FOREST",
+      "RIGHT",
+      "MOUNTAIN"
+    ]
+  ],
+  "weights": {
+    "WATER": 1.0,
+    "SAND": 1.2,
+    "GRASS": 2.0,
+    "FOREST": 1.5,
+    "MOUNTAIN": 0.5
+  },
+  "images": {
+    "WATER": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABFUlEQVR4nGPUbNj5n2EAAcv/f38H0n4GFob//wbWAf//DbADGEZD4P8gD4FbXaGByHy1stXrSVFPSB/j////A8AKSleiKLjVHR5IDXFC8owqxcvABdHtnkgUl6uWLMfrU1LV49LHqFK4ZIBLwv8DXRL+G+hc8H+gy4F/gzwE7k1NQ0m1Stmz1pOinpA+Rlg5oJQ1A0XBvWkZgdQQJyTPqJg+FZwN783IQvVpxjT8PiVRPS59jAppkwe2HGAY7IlwJITA38EdAg8XlqOkWvn4zvWkqCekjxFWDsjFtaMoeLSoMpAa4oTkGWVjWsDZ8NHiahSXy8W24vUpqepx6WOUiWoa4HLg/0Dngn8DXQ78Hw2BfwPqAADdMLv2txj1pgAAAABJRU5ErkJggg==",
+    "SAND": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB9klEQVR4nNWW7UvCQBzHb6te5KuMpbayEG1hooiRmvUn9mflIxQ+YNJSpLKlNVCDojdW3PLOO93tQVPp++b72xz3+XCMm1yvdvENlhh+mfA/EcgWrxYvIDdfKPi4RFqu/J1A4TUPKqoyAYd9Gj3WZtQk3KoEZ/QSQvg658XXYUHEcMnnYi7a7OaAz5mcXYCUQHBWlMcyeGgD4A584HtWJFaNfmx10yC+dWa6CILDdOoOTcLqDvBGcLLJqGqZuha9EbDn+Z2TJxHLcEOBXecZ1eNwPQkI10u+VrAvoAeHEYQI1axkaxkK3pBz9gTkmypzceVp0xIcdiIYB8LKF1OCN4LrSZRLLeDZ4rRm5TSYotovJak2FZCOQlSTgXCyyWQKeUriVh6dkHpwpgALDuMSd6geh6NGcFLCloBRxuEwqXgCd0O5AofS7/GMeuqT0G4gHMUvGsNhmDtQqdzj+bI4+hiZBUGtwGF0d4CE9wdreD6P0t+Dav4ahBIxMEt4vZvh8D5uBNWDkz1tuFnegbntgNXMCof5H39KO63O8gQ6Q/i8JHizB9y7bqoXLpBRFNDgB0Dt3S1HICWKQHK8a/M8JHgrDwkbB1TPVaB+/YzndqM0IWEnua5qT6A+hMNGcFJiGriZBCUQiG3j7r99ajNqu0k6BapZ+QFOY+lE3mtbAgAAAABJRU5ErkJggg==",
+    "GRASS": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACAklEQVR4nOVXS0sDMRBOQ25b2gpe1FpofZ98k5P4QATRm548+W/8B4J/QgRFREQQERtUPPkWH7Vebe3j2khS02a32XSzLfTQgWHDzHyTyUxm0gaGdjcpaCEhWmrp/gAB2uYBQFoCoFH+2bsjfrGoaRnw6QdyIKUgs39PxNqEGa5jdQT7wTKGgHWB6ASxNmEHLnPwQEzwUAQjsmjCmcNHElkexrJM54fZO2XIVjs/dVRhdH4cOpg9eiKqVFbkCmY6xpGlQVyD0ZVSoYNyUPVSmT1+5imUD+PEqOQ6n4HOjYmkAIYXBzD7/p68ELGWicllOzdyw6t0sLL5Qn81nW5plAMx6AydDobn+8qnPn2tzgG3PIpgGUbTHkxv86epA1TVzm3/0Fw5WC8tqvNhuwOJnXVunjt7K99gAEBoNqGsH7Nx0/m1R3JtK6SQ5c7fSWgmXr4nJlTHPhDfXqPt/XsA/LdD/uLD6BFpFkNPrwilIH/56eu5rvsc55MpPl6DOIbF2qStdBgvDIPTvbhAUsRkggl7/tVhPDCyHQ8AULj64k6DU9Ha/qUUFK7ThOucE8wnIYa1JqOYOXbspdpfqWukkZA8KKzxHn7q4u13tSQSFW/ShNs4dQ38uUFy+HxjzbGssW576jW2XgnK19wa7cKVr+O6qmRutiYciG2ttPcoRq0O4A/8C7/g2J2gjQAAAABJRU5ErkJggg==",
+    "FOREST": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABRUlEQVR4nN1XMQ7CMAwMVrdMiI2BjYXP8AM+zBMQCzuChYkBlEpGqWWn5xCo4CQkqjp3ZyeNk9lyt3kEgcd8EVDcDqfRmLheDZ5nl/Prf/dJYRkrjQwMSHFNgAk84pIzcSQtrkInxS1yzf07YBOEiOeozd4aTwhx6+wZKXnyZPVu9hoPhYlBrbKqNhAmBv2Ugdjoa8h5CBngWSfb673/IUgbUZfceAQ4XqtGTWMiNKOc3JoKzxQNekEEqiDJS83K4uT3ajuOVmn3x1Fh611puhiUuxkrYc2mlXMmrVwvofOIeBaszFwKM8jbjmv2Aku8N4CKI1+BNaZ01CNEHDX5lW54KxwwqwyEiUF/bSAqO19zA1tH91MNROdiQi8nSPYJZjPSsvrE8ZxQckS8dAlt0oyCEJPt1yvex/H1HLkZ56RaPCqa4wkf67+Z98LoIwAAAABJRU5ErkJggg==",
+    "MOUNTAIN": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA+ElEQVR4nO2VMQrCQBBF14+9XSCV4DE8guAt0uYMXkAr29xC8AiSI1gJVgE7T6AMmGZ1d2c2mUzjL5PZzHuzgZnt9oeXMwwsm/8BRplAXVV2V1B/mg+BgDMOcg/61rlTgDMOcg6FbHOmgLGac9/f7s9hAGMHkmLuiEN1vr0YQCPgFkp/ML+e7Leb9VfdnPvBY9O4oizZAI+u+/mcIE7ni1stF7IJFILmfn3IXgSgFWg3iNmzAaTjl5yDU0zbXqP2LIBce25gaZ8E0LZPAmjbRwE07QmuX0ywtA8CTHH3UYCp7CmwtKew13EqZE+hVTsIILTHU+n3uzRvSbpIUUB+JCAAAAAASUVORK5CYII="
+  }
+}
